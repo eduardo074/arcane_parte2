@@ -14,10 +14,21 @@ html{
 body{
     margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(img/wallpaper.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: 100%;
 }
+
+/*Estilização HEADER*/
 header{
-    border: 1px solid red;
     padding-top: 15px;
+}
+h1{
+    color: #FFFFFF;
 }
 .navbar{ 
     max-width: 900px;
@@ -52,6 +63,5 @@ header nav ul li.inscreve{
     
 }
 header nav ul li.entrar{
-    background-color: black;
-       
+    border: 2px solid white; 
 }
