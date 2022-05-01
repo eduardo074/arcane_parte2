@@ -58,10 +58,10 @@ header nav ul li.inscreve,.entrar{
     border-radius: 4px;
 }
 header nav ul li.inscreve{
-    margin-right: 10px;
+    margin-right: 40px;
     background-color:var(--cor1);
     
 }
 header nav ul li.entrar{
-    border: 2px solid white; 
+    border: 1px solid white; 
 }
