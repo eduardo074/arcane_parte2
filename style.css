@@ -65,3 +65,24 @@ header nav ul li.inscreve{
 header nav ul li.entrar{
     border: 1px solid white; 
 }
+main section{
+    
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    
+    
+    
+}
+ main h2{
+    font-size: 10.8rem;
+    font-family: var(--font);
+    font-weight: 800;
+    color: #FFFFFF;
+    display: block;
+}
+.imgtrailers{
+   
+    
+}
