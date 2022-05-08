@@ -9,7 +9,7 @@
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 55.5%;
 }
 body{
     margin: 0;
@@ -65,14 +65,12 @@ header nav ul li.inscreve{
 header nav ul li.entrar{
     border: 1px solid white; 
 }
-main section{
+main {
     
     max-width: 900px;
     width: 90%;
     margin: auto;
     display: flex;
-    
-    
     
 }
  main h2{
@@ -81,8 +79,33 @@ main section{
     font-weight: 800;
     color: #FFFFFF;
     display: block;
+    line-height: 15.0rem;
 }
-.imgtrailers{
-   
-    
+.conteudoMain{
+    display: flex;
+    align-items: center;
 }
+
+.imgs{
+    margin: 10%;
+    margin-left: 16%;
+}
+.imgs >p{
+    font-size: 2.4rem;
+    font-weight:600;
+    font-family: var(--font);
+    color: #FFFFFF;
+}
+.imgOne{
+    width: 230px;
+    height: 110px;
+}
+.imgTwo{
+    width: 230px;
+    height: 110px;
+    padding-top: 23px;
+}
+.linkMain{
+    margin-top: -10%;
+}
+
