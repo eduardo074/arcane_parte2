@@ -38,31 +38,36 @@ h1{
     justify-content: space-between;
     align-items: center;
 }
-header nav ul {
+nav ul {
     display: flex;
     list-style: none;
     text-transform: uppercase;
     padding: 5px;
-   
 }
 
-header nav ul li a{
+nav ul li a{
     text-decoration: none;
     font-size: 1.3rem;
     font-family:var(--font);
     color: #FFFFFF;
-
 }
-header nav ul li.inscreve,.entrar{
+nav ul li:hover{
+   background-color: rgba(255, 255, 255, 0.144);
+   transition: .5s;
+}
+
+nav ul li.inscreve,.entrar{
     padding: 8px 32px;
     border-radius: 4px;
 }
-header nav ul li.inscreve{
+nav ul li.inscreve{
     margin-right: 40px;
-    background-color:var(--cor1);
-    
+    background-color:var(--cor1); 
 }
-header nav ul li.entrar{
+nav ul li.inscreve:hover{
+    background-color: #014e7a;
+}
+nav ul li.entrar{
     border: 1px solid white; 
 }
 main {
@@ -88,24 +93,60 @@ main {
 
 .imgs{
     margin: 10%;
-    margin-left: 16%;
+    margin-left: 18%;
+    position: relative;
+    
 }
 .imgs >p{
     font-size: 2.4rem;
     font-weight:600;
     font-family: var(--font);
     color: #FFFFFF;
+    line-height: 2px;
 }
 .imgOne{
-    width: 230px;
+    width: 200px;
     height: 110px;
 }
 .imgTwo{
-    width: 230px;
+    width: 200px;
     height: 110px;
     padding-top: 23px;
 }
 .linkMain{
     margin-top: -10%;
+}
+.iconePlay{
+    position: absolute;
+    top: 38%;
+    left: 2%;
+    display: flex;
+    align-items: center;
+    
+}
+.imgs .ordemTrailer{
+    color: #E7E7E7;
+    font-family: var(--font);
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding-left: 140px;
+
+}
+.iconePlayTwo{
+    position: absolute;
+    top: 85%;
+    left: 2%;
+    display: flex;
+    align-items: center;
+}
+.iconeHove{
+    cursor: pointer;
+    width: 28px;
+    height: 27px;
+}
+.iconeHove:hover{
+    transition: .5s;
+    width: 30px;
+    height: 29px;
 }
 
