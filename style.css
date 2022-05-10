@@ -148,5 +148,34 @@ main {
     width: 30px;
     height: 29px;
 }
-
-
+footer{
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    margin-top: 6%;
+}
+footer ul{
+    padding-left: 0px;
+    margin-left: -18px;
+}
+footer ul li{
+    display: inline;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 25px;
+    
+    font-weight: 500;
+    font-family: var(--font);
+    font-size: 1.4rem;
+}
+.social{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+footer ul li a:hover{
+    transition: .5s;
+    font-weight: 700;
+}
